@@ -76,7 +76,43 @@
 #
 # print(resultado)
 
+#Ejercicio 7: Cálculo del área y perímetro
+# Define variables numéricas que representen dimensiones (largo, ancho, radio, altura).
+# Calcula el área y perímetro de distintas figuras geométricas (rectángulo, círculo, triángulo rectángulo)
+# y presenta todos los resultados claramente en una sola cadena formateada usando conversiones explícitas.
 
+# largo, ancho, radio, altura = 34, 10, 5, 34
+#
+# area_rectangulo = largo * ancho
+# perimetro_rectangulo = 2*(largo + ancho)
+# area_circulo = 3.14 * radio ** 2
+# perimetro_ciruclo = 2*3.14*radio
+# area_triangulo = (largo*altura)/2
+# resultado = (f"Area de un rectángulo: {area_rectangulo}, "
+#              f"Perimetro del rectangulo: {perimetro_rectangulo},"
+#              f"\nArea del Circulo: {area_circulo}, Perimetro del Circulo: {perimetro_ciruclo},"
+#              f"\nArea del triangulo: {area_triangulo}")
+#
+# print(resultado)
+
+
+#Ejercicio 8: Análisis de texto complejo
+# Define una cadena extensa que represente un párrafo completo.
+# Utilizando únicamente métodos de cadenas y funciones integradas (len, upper, split),
+# obtén el número total de caracteres, palabras y el resultado de transformar el texto
+# completamente a mayúsculas, presentándolo claramente en una cadena nueva.
+
+
+
+# cadena = "Soy una cadena extensa a la que le quieren cambiar el formato "
+# caracteres = len(cadena)
+# palabras = len(cadena.split())
+# mayusculas = cadena.upper()
+#
+# resultado = (f"Número de caracteres: {caracteres}, Número de palabras: {palabras},"
+#              f"\nParrafo en mayúsculas: {mayusculas}")
+#
+# print(resultado)
 
 
 
