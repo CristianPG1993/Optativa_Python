@@ -1,5 +1,5 @@
 
-
+#Actividad 1.
 #Crear una lista con los números del 1 al 5
 # lista = [1, 2, 3, 4, 5]
 #
@@ -29,4 +29,7 @@ print(matriz[1][2])
 #Modificar el elemento de la segunda fila, tercera columna
 matriz[1][2] = 40
 print(matriz)
+
+
+
 
